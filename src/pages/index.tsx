@@ -5,12 +5,19 @@ import { Main } from '../templates/Main';
 
 import {Carousel} from '../components/carousel/carousel'
 
+const carouselData = 
+[{title: 'vsss',
+description:'evento vsss'},
+{title:'Futebol2D',
+description:'Futebol mas 2D'}
+]
+
 const Index = () => {
   const router = useRouter();
 
   return (
     <div className="min-h-screen bg-black" > 
-    <Carousel></Carousel>
+      <Carousel data={carouselData}/>
     </div>
   )
 };

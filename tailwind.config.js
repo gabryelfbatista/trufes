@@ -19,7 +19,11 @@ module.exports = {
 
     height: {
       retangulo: '600px',
-      quadrados: '500px',
+      quadrados: '500px'
+     },
+
+     width: {
+       cards:'400px'
      },
 
     extend: {
@@ -34,7 +38,7 @@ module.exports = {
           700: '#4a5568',
           800: '#2d3748',
           900: '#1a202c',
-          550: '262626'
+          trufes: '#171717',
         },
         blue: {
           100: '#ebf8ff',
@@ -46,13 +50,16 @@ module.exports = {
           700: '#2b6cb0',
           800: '#2c5282',
           900: '#2a4365',
-          1000: '#074db6',
+          trufes: '#074db6',
         },
         green: {
-          100: '#037d48',
+          trufes: '#037d48',
         },
         orange: {
-          100: '#e1711d',
+          trufes: '#e1711d',
+        },
+        black:{
+          trufes: '#000000',
         },
       },
     },
